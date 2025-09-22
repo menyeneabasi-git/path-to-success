@@ -55,6 +55,7 @@ table {
 
 
 :root {
+    max-width: 450px;
     --teal: #4CA7C0;
     --purple:  #484FB7;
     --lavender: #6B8FE7;
@@ -67,7 +68,6 @@ table {
 
 html {
     background-color: var(--lavender);
-    max-width: 450px;
     margin: 0 auto;
 }
 
@@ -86,16 +86,7 @@ h1, h2 {
     font-family: 'Kavoon';
 }
 
-nav {
-    background-color: var(--yellow);
-    
-}
 
-
-
-nav h2, nav p {
-    font-family: 'Inter';
-}
 
 p {
     font-family: 'Inter';
@@ -119,4 +110,97 @@ h3 {
 
 h4 {
     font-size: 1.15em;
+}
+
+.services-section {
+    background-color: var(--white);
+    border-radius: 1rem;
+    margin: 0rem auto;
+    padding: 1.5rem;
+    width: 80%;
+}
+
+.services-section h4 {
+    color: var(--purple);
+    font-weight: bolder;
+    margin: 0.25rem auto;
+}
+
+.services-section p {
+    font-family: 'Kavoon';
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.25;
+
+}
+
+.services-section h4, .services-section p {
+    font-family: 'Inter';
+    padding: 1rem;
+}
+
+.our-services {
+    background-color: var(--purple);
+    padding-bottom: 1rem;
+}
+
+.services-header {
+    font-family: 'Inter';
+    font-weight: bold;
+    color: var(--white);
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 3ch;
+}
+
+.services-header h3 {
+    color: var(--yellow);
+}
+
+.choose-container {
+    background-color: var(--pink);
+    padding: 20px 10px;
+    border: 10px 10px;
+}
+
+.choose-container h2 {
+    color: var(--white);    
+    padding: 10px 5px;
+    margin-bottom: 0.25rem;
+}
+
+.choose-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0;
+} 
+
+.choose-page li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+    color: var(--black);
+    padding: 20px 10px;
+}
+
+.choose-page .first-option {
+    background-color: var(--teal);
+}
+.choose-page .second-option {
+    background-color: var(--lavender);
+}
+.choose-page .third-option {
+    background-color: var(--yellow);
+}
+.choose-page .fourth-option {
+    background-color: var(--white);
 }
