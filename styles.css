@@ -75,11 +75,12 @@ header {
     background-color: var(--purple);
     color: white;
     text-align: center;
-    height: 250px;
+    padding: 1rem 4rem;
 }
 
 header h1, header p {
     text-align: center;
+    margin: 1rem;
 }
 
 h1, h2 {
@@ -87,13 +88,14 @@ h1, h2 {
 }
 
 
-
 p {
     font-family: 'Inter';
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.25em;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 nav h2 {
@@ -112,10 +114,33 @@ h4 {
     font-size: 1.15em;
 }
 
+nav {
+    padding: 1.25rem;
+}
+
+nav, nav h2  {
+    font-family: 'Inter';
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--yellow);
+    font-style: italic;
+}
+
+.menu-list li {
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 17.5px;
+    font-style: normal;
+    padding: 1rem;
+    background-color: var(--white);
+    color: var(--purple);
+    margin: 1rem;
+}
+
 .services-section {
     background-color: var(--white);
     border-radius: 1rem;
-    margin: 0rem auto;
+    margin: 1rem auto;
     padding: 1.5rem;
     width: 80%;
 }
@@ -152,6 +177,8 @@ h4 {
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 3ch;
+    letter-spacing: 0.5px;
+
 }
 
 .services-header h3 {
