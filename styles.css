@@ -231,3 +231,60 @@ nav, nav h2  {
 .choose-page .fourth-option {
     background-color: var(--white);
 }
+
+.pricing-container {
+    background-color: var(--purple);
+    padding-bottom: 10px;
+}
+
+.pricing-header {
+    font-family: 'Inter';
+    font-weight: bold;
+    color: var(--white);
+    margin-left: 10px;
+    padding-top: 10px;
+    line-height: 3ch;
+    letter-spacing: 1.5px;
+
+}
+
+.table-container h3 {
+    color: var(--yellow);
+    font-family: 'Inter';
+    font-weight: bold;
+    margin-left: 10px;
+    line-height: 3ch;
+}
+
+.pricing-table {
+    margin: 0 auto;
+}
+
+.pricing-table th {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 30px;
+}
+
+.pricing-table th, td {
+    border-bottom: 2px solid var(--yellow);
+    border: 2px solid var(--yellow);
+    font-family: 'Inter';
+}
+
+.pricing-table thead {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pricing-table th, .pricing-table tbody{
+    background-color: var(--yellow);
+}
+
+.pricing-table td { 
+    background-color: var(--white);
+    padding: 15px;
+    margin: 2px;
+    text-align: center;
+}
+    
