@@ -71,6 +71,10 @@ html {
     margin: 0 auto;
 }
 
+body {
+    margin-bottom: 30px;
+}
+
 header {
     background-color: var(--purple);
     color: white;
@@ -288,3 +292,47 @@ nav, nav h2  {
     text-align: center;
 }
     
+
+.step-container {
+    background-color: var(--pink);
+    color: var(--white);
+    margin: 0 auto;
+    padding: 15px;
+    padding-bottom: 10px;
+}
+
+.step-container h2 {
+    padding: 10px 0;
+}
+
+.step-container p {
+    line-height: 2.5ch;
+
+}
+
+.step-container button {
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    width: 90%;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 40px  rgba(0, 0, 0, 0.3);
+}
+
+.step-container button p {
+    font-weight: 800;
+    font-size: larger;
+}
+
+footer {
+    display: grid;
+    font-family: 'Inter';
+    font-size: small;
+    grid-template-columns: 1fr 1fr;    
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 70px 60px;
+    margin: 0 auto; 
+}
+
